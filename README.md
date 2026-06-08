@@ -25,26 +25,6 @@ Plateforme de messagerie académique développée en **PHP orienté objet pur** 
 - MySQL / MariaDB >= 5.7
 - Serveur Apache / Nginx
 
-### Étapes
-
-```bash
-# 1. Placer le dossier dans votre répertoire web
-#    Ex: /var/www/html/fasichat  ou  C:\xampp\htdocs\fasichat
-
-# 2. Importer la base de données
-mysql -u root -p < fasichat.sql
-
-# 3. Ajuster la configuration si nécessaire
-nano config/config.php
-# → modifier DB_HOST, DB_NAME, DB_USER, DB_PASS
-
-# 4. Créer les dossiers d'uploads (s'ils n'existent pas)
-mkdir -p uploads/{images,videos,documents,audio}
-chmod -R 755 uploads/ temp/
-
-# 5. Accéder à l'application
-http://localhost/fasichat/
-```
 
 ## Comptes de démonstration (mot de passe : `password123`)
 
